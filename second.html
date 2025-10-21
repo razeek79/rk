@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="rk.css">
-    <link rel="stylesheet" href="second.html">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Lobster&family=Monoton&family=Orbitron&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Press+Start+2P&family=Roboto:wght@400;700&family=Source+Code+Pro&display=swap" rel="stylesheet">
@@ -16,27 +16,38 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="sectionHome">   
-        <div class="homebg d-none d-md-block">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h1 class="homemh">Let's Begin <br/> Here</h1>
-                    </div>
-                    <div class="col-12">
-                        <a href="second.html" class="homebutton1"><button class="button1 btn-primary" onclick="display('sectionSecond')">Get Started</button></a>
-                    </div>
-                </div>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#"><h1 class="navheading font-monoton">JUST</h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Progress</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Explore Our Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Teachers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Follow us</a>
+                </li>
+            </ul>
         </div>
-        <div class="homebgsm d-block d-md-none d-flex flex-column justify-content-end">
-            <div class="homesm-card">
-                <h1 class="homesmmh">LOVRO <br/> <span class="designz">Designz</span></h1>
-                <p>Get creative designs as in your mind.</p>
-                <a href="second.html" class="homebutton1 mb-5"><button class="button1 button1sm btn-primary" onclick="display('sectionSecond')">Get Started</button></a>
-            </div>
+    </nav>
+    <div id="sectionSecond">
+        <div>
+            <h2 class="m-5">Welcome to Razeek</h2>
+            <p>Your one-stop solution for all educational needs.</p>
         </div>
     </div>
+    
     <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
 </body>
 </html>
